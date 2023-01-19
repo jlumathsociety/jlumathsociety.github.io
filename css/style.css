@@ -13,7 +13,7 @@ div,p,input,ul,li,h1,h2,h3 {
   list-style: none;
 }
 a {
-  color: #131313;
+  color: blue;
   text-decoration: none;
 }
 .main{
@@ -48,7 +48,7 @@ a {
   height: 50px;
 }
 .box1{
-  width: 940px;
+  width: 1050px;
   height: 339px;
   padding: 45px 25px;
   margin: 0 auto ;
@@ -187,3 +187,34 @@ a {
   margin-top:10px;
   margin-bottom:10px;
   }
+
+  .column .more{
+    float: right;
+    width: 30px;
+    height: 18px;
+    margin-top: 18px;
+    background: url("https://math.jlu.edu.cn/images/more.png") no-repeat;
+}
+
+.yqlj .link-list ul li{
+  float: left;
+  margin-right: 35px;
+  margin-top: 30px;
+}
+.yqlj .link-list ul li a{
+  width: 500px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #494949;
+  font-size: 18px;
+  border: 1px solid #d9d6d6;
+}
+
+
+.yqlj .link-list ul li a:hover, .szdw-list div ul li a:hover{
+  border: 1px solid #115bb0;
+}
+.list li:hover{
+  padding: 0px 8px 
+}
