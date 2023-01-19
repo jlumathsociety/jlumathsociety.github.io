@@ -53,7 +53,7 @@ a {
   padding: 45px 25px;
   margin: 0 auto ;
   margin-top: 25px;
-  background: url(../img/img2.jpg) no-repeat;
+  /* background: url(../img/img2.jpg) no-repeat; */
 }
 .box1 img{
   float: right;
@@ -75,7 +75,7 @@ a {
   height:50px;
   line-height:50px;
   text-align:center;
-  background:url(../img/img4.jpg) no-repeat;
+  /* background:url(../img/img4.jpg) no-repeat; */
   font-size:20px;
   color:#FFF;
   margin-bottom:75px;
@@ -85,20 +85,30 @@ a {
   height:260px;
   }
 .box2-ner .bx{
-  width:195px;
+  width: 170px;
   height:260px;
   float:left;
   margin:0px 25px;
   }
 .box2-ner .bx h1{
-  height:60px;
-  line-height:60px;
+  height:30px;
+  line-height:30px;
   text-align:center;
   font-weight:normal;
   font-size:14px;
   }
 .foot{
   height: 95px;
+  /* margin-top: 500px; */
+  line-height: 105px;
+  background: #164d85;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+}
+.foot-study{
+  height: 95px;
+  margin-top: 500px;
   line-height: 105px;
   background: #164d85;
   text-align: center;
